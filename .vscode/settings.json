@@ -1,0 +1,20 @@
+{
+    // Git 源代码管理
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.postCommitCommand": "push",
+    "git.openRepositoryInParentFolders": "always",
+
+    // 编辑器
+    "editor.formatOnSave": true,
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.git": true
+    },
+
+    // 搜索排除
+    "search.exclude": {
+        "**/.git": true
+    }
+}
